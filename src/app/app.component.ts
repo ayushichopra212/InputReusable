@@ -27,6 +27,7 @@ export class AppComponent implements OnInit{
   //    username:  new FormControl(),
   //    email :  new FormControl()
   //  });
+  console.log("ayushiChopra")
   }
 
   
