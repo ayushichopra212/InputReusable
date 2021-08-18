@@ -21,7 +21,7 @@ export class CustomInputComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-   
+   console.log("values")
   }
   
 }
