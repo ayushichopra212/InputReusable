@@ -1,0 +1,19 @@
+<div class="container" style="text-align: center;">
+<!-- <form  [formGroup]="userForm" >
+    <label for="name">Name: </label>
+    <input id="name" type="text" class="form-control" formControlName="name" >
+<br><br>
+    <label for="name">Username: </label>
+    <input id="username" type="text" class="form-control" formControlName="username" >
+<br><br>
+    <label for="name">Email: </label>
+    <input id="email" type="text" class="form-control" formControlName="email" >
+<br><br>
+    <button type="button">Submit</button>
+</form>
+</div> -->
+
+<label for="fieldId">{{label}}</label><br>
+<select name="fieldId" [id]="fieldId" >
+    <option [selected]="v === Selected" *ngFor="let v of values" [ngValue]="v">{{v}}</option>
+</select>
