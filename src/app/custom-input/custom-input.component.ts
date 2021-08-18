@@ -22,6 +22,7 @@ export class CustomInputComponent implements OnInit {
 
   ngOnInit() {
    console.log("values")
+   console.log("values22")
   }
   
 }
