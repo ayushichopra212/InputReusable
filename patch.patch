@@ -1,0 +1,12 @@
+diff --git a/src/app/app.component.ts b/src/app/app.component.ts
+index 24aecf7..78dcee3 100644
+--- a/src/app/app.component.ts
++++ b/src/app/app.component.ts
+@@ -27,6 +27,7 @@ export class AppComponent implements OnInit{
+   //    username:  new FormControl(),
+   //    email :  new FormControl()
+   //  });
++  console.log("ayushiChopra")
+   }
+ 
+   
